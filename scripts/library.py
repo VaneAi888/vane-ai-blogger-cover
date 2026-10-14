@@ -267,7 +267,7 @@ def approve(root, job_id, confirmation):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     base = Path(os.environ.get('CODEX_HOME', str(Path.home() / '.codex'))).expanduser()
-    parser.add_argument('--root', type=Path, default=base / 'skill-data' / 'wayne-ai-blogger-cover')
+    parser.add_argument('--root', type=Path, default=base / 'skill-data' / 'vane-ai-blogger-cover')
     subs = parser.add_subparsers(dest='command', required=True)
     subs.add_parser('init')
     subs.add_parser('status')

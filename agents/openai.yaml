@@ -1,4 +1,4 @@
 interface:
-  display_name: "韦恩AI博主封面"
+  display_name: "vane-ai-blogger-cover"
   short_description: "长期记住本人形象与参考风格，先确认竖版封面，再生成横版适配"
-  default_prompt: "使用 $wayne-ai-blogger-cover，读取我的身份库与封面风格库，为这次主题制作封面。"
+  default_prompt: "使用 $vane-ai-blogger-cover，读取我的身份库与封面风格库，为这次主题制作封面。"

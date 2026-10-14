@@ -12,7 +12,7 @@ python3 <skill>/scripts/library.py import style <参考图片或素材目录> [�
 脚本只负责可靠存储，不做图像理解。`import` 与 `register-output` 使用 Python 的 Pillow 校验实际图片；其余命令仅需 Python 标准库。若当前 Python 缺少 Pillow，先找环境提供的依赖运行时。原图按 SHA256 去重、复制，保存来源路径/文件名与导入时间。库中相对路径从数据根目录解析；原来源移走不会影响已复制的资产。索引记录所有候选素材，active revision 的 asset_ids 决定已学会使用的部分；新导入图片不自动替换已有风格。
 
 ```text
-wayne-ai-blogger-cover/
+vane-ai-blogger-cover/
   identity/index.json
   identity/profile.md                     当前身份分析
   identity/assets/<完整sha256>.<ext>        本人原图

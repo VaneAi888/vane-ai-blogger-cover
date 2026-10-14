@@ -1,4 +1,6 @@
-# 韦恩AI博主封面
+# vane-ai-blogger-cover
+
+韦恩AI博主封面。
 
 一个具备本地长期记忆的个人自媒体封面设计 Skill。
 
@@ -65,27 +67,27 @@ Skill：设计流程、选择规则、存储脚本
 适用于可读取本地 Skill、文件并调用图片生成工具的 Codex 环境。
 
 ```sh
-git clone https://github.com/VaneAi888/wayne-ai-blogger-cover.git \
-  "${CODEX_HOME:-$HOME/.codex}/skills/wayne-ai-blogger-cover"
+git clone https://github.com/VaneAi888/vane-ai-blogger-cover.git \
+  "${CODEX_HOME:-$HOME/.codex}/skills/vane-ai-blogger-cover"
 
 python3 -m pip install -r \
-  "${CODEX_HOME:-$HOME/.codex}/skills/wayne-ai-blogger-cover/requirements.txt"
+  "${CODEX_HOME:-$HOME/.codex}/skills/vane-ai-blogger-cover/requirements.txt"
 ```
 
 在能发现新 Skill 的聊天中输入：
 
-> 使用韦恩AI博主封面。标题：……；主题：……；平台：……；尺寸：……。
+> 使用 $vane-ai-blogger-cover。标题：……；主题：……；平台：……；尺寸：……。
 
 首次使用时建立缺失的资产库；已有库直接调用。默认长期数据位置：
 
 ```text
-${CODEX_HOME:-~/.codex}/skill-data/wayne-ai-blogger-cover/
+${CODEX_HOME:-~/.codex}/skill-data/vane-ai-blogger-cover/
 ```
 
 可以通过存储脚本的 `--root` 参数指定其他数据目录。检查当前状态：
 
 ```sh
-python3 "${CODEX_HOME:-$HOME/.codex}/skills/wayne-ai-blogger-cover/scripts/library.py" status
+python3 "${CODEX_HOME:-$HOME/.codex}/skills/vane-ai-blogger-cover/scripts/library.py" status
 ```
 
 ## 项目文件
