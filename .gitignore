@@ -1,0 +1,24 @@
+# Runtime libraries and task records stay outside the published skill.
+memory/
+skill-data/
+identity/
+style/
+jobs/
+outputs/
+generated_images/
+
+# Local media, migration packages, credentials, and machine state.
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.heic
+*.mp4
+*.zip
+.env
+.env.*
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
